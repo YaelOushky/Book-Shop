@@ -1,0 +1,183 @@
+body {
+  background-image: url(../img/pink.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: none;
+  height: 100vh;
+  background-color: rgb(241, 236, 236);
+  text-align: center;
+  font-family: cursive;
+}
+
+h1 {
+  color: rgb(231, 213, 224);
+  margin: 30px;
+  text-shadow: 0 0 3px rgb(212, 69, 153);
+}
+.icons {
+  border-radius: 10px;
+  height: 40px;
+  /* background-color: rgba(226, 187, 221, 0.562); */
+}
+.icons img {
+  margin-top: 10px;
+  display: inline;
+  /* margin: 15px; */
+  width: 20px;
+  height: 20px;
+}
+
+.icons img:hover{
+    transform: translateY(2px);
+  background-color: rgba(163, 144, 175, 0.5);
+}
+
+.vendor-list {
+  margin-left: 20px;
+  border: 1px solid brown;
+  background-color: rgba(218, 176, 176, 0.527);
+  padding: 2px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.vendor-list:hover {
+  background-color: rgba(163, 144, 175, 0.5);
+}
+
+.books-container {
+  display: block;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.books-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  text-align: center;
+}
+
+.book-preview {
+  display: flex;
+  flex-wrap: wrap;
+  width: 12%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid brown;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(226, 218, 226, 0.603);
+}
+
+.card-img-top {
+  margin: 0 auto;
+  width: 150px;
+}
+
+table {
+  min-width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid brown;
+  background-color: rgba(226, 218, 226, 0.603);
+  margin: 0 auto;
+}
+
+th {
+  color: whitesmoke;
+  background-color: rgba(218, 176, 176, 0.637);
+  border: 1px solid brown;
+  border-radius: 7px;
+}
+
+td {
+  border-color: rgba(218, 175, 175, 0.527);
+  border-radius: 10px;
+}
+
+.modal {
+  background-color: rgba(235, 220, 234, 0.918);
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  height: 100%;
+  min-width: 300px;
+  text-align: center;
+}
+
+h4 img {
+  width: 150px;
+}
+
+.btn {
+  border: 1px solid brown;
+  padding: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: rgba(218, 176, 176, 0.527);
+}
+.modal button {
+  border-radius: 7px;
+  padding: 5px;
+  width: 54px;
+}
+
+.book-name {
+  font-size: xx-large;
+}
+
+.book-price {
+  font-size: large;
+}
+
+.rate {
+  border-radius: 7px;
+  padding: 5px;
+  width: 50px;
+}
+
+.delete {
+  color: whitesmoke;
+  border-radius: 7px;
+  padding: 6px;
+  width: 55px;
+  margin: 4px;
+  border: none;
+  background-color: crimson;
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+.update {
+  color: whitesmoke;
+  border-radius: 7px;
+  padding: 6px;
+  width: 55px;
+  margin: 4px;
+  border: none;
+  background-color: rgb(220, 173, 20);
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.read {
+  color: whitesmoke;
+  border-radius: 7px;
+  padding: 6px;
+  width: 55px;
+  margin: 4px;
+  border: none;
+  background-color: rgb(45, 63, 226);
+  box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  transform: translateY(2px);
+  background-color: rgba(163, 144, 175, 0.5);
+}
+
+.button:focus {
+  box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}

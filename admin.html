@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>book-shop</title>
+  </head>
+
+  <body onload="onInit()">
+    <h1>Welcome to my bookshop</h1>
+
+    <div class="icons">
+      <img src="img/grid.png" onclick="onClickViewMode('GRID')"/>
+      <img src="img/table.png" onclick="onClickViewMode('TABLE')"/>
+      <select class="vendor-list"></select>
+      <button class="btn" type="button" onclick="onAddBook()">+</button>
+    </div>
+    <section class="books-container" hidden></section>
+    <section class="books-container2 " hidden></section>
+
+    <div class="modal" hidden>
+      <h5 class="book-name"></h5>
+      <h6 class="book-price"></h6>
+      <h4></h4>
+      <p></p>
+      <input class="rate" type="number" placeholder="Rate " min="0" max="10"/>
+      <button onclick="onCloseModal()">Close</button>
+    </div>
+
+    <script src="js/util-service.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+  </body>
+</html>
